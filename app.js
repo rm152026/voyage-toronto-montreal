@@ -78,9 +78,10 @@ const STOPS = [
   { name: 'Mille-Îles',     sub: 'Sur la route',           lat: 44.3300, lng: -76.1600, emoji: '🏝️' },
   { name: 'Ottawa',         sub: 'Étape possible',         lat: 45.4215, lng: -75.6972, emoji: '🏛️' },
   { name: 'Mont-Tremblant', sub: '2ᵉ lodge · Laurentides', lat: 46.1185, lng: -74.5962, emoji: '♨️' },
+  { name: 'Tadoussac',      sub: 'Fjord & baleines',       lat: 48.1429, lng: -69.7164, emoji: '🐋' },
   { name: 'Montréal',       sub: 'Départ · 23 juil.',      lat: 45.5017, lng: -73.5673, emoji: '🛫' }
 ];
-const ROUTE = ['Toronto', 'Muskoka', 'Parc Algonquin', 'Ottawa', 'Mont-Tremblant', 'Montréal'];
+const ROUTE = ['Toronto', 'Muskoka', 'Parc Algonquin', 'Ottawa', 'Mont-Tremblant', 'Tadoussac', 'Montréal'];
 let map, markers = {};
 (function initMap() {
   map = L.map('map', { scrollWheelZoom: false }).setView([45.0, -76.8], 6);
