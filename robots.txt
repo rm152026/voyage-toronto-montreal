@@ -1,0 +1,4 @@
+# Carnet de voyage privé — on ne veut PAS être indexé.
+# Le site se partage par lien uniquement.
+User-agent: *
+Disallow: /

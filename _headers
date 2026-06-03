@@ -1,0 +1,9 @@
+# En-têtes pour Netlify / Cloudflare Pages.
+# Discrétion (pas d'indexation) + durcissement (cf. SECURITY-AUDIT.md, P6).
+/*
+  X-Robots-Tag: noindex, nofollow, noarchive, nosnippet
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
