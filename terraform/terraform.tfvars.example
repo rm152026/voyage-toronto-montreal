@@ -1,0 +1,11 @@
+# Copie ce fichier en `terraform.tfvars` puis remplis tes valeurs.
+# IMPORTANT : `terraform.tfvars` est gitignoré — vos e-mails NE doivent PAS
+# finir dans un dépôt public.
+
+account_id  = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"   # 32 caractères
+site_domain = "trip-xxxxxxxx.pages.dev"            # ou ton domaine perso
+
+allowed_emails = [
+  "toi@exemple.com",
+  "elle@exemple.com",
+]

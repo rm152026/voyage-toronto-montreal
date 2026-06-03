@@ -1,2 +1,10 @@
 .claude/
 .DS_Store
+
+# Terraform — état + variables (contiennent vos e-mails / secrets : jamais dans un dépôt public)
+terraform/terraform.tfvars
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/crash.log
