@@ -69,6 +69,11 @@ ajoutez ces en-têtes côté serveur (Netlify : fichier `_headers`) :
   Permissions-Policy: geolocation=(), microphone=(), camera=()
 ```
 
+### Verrouiller l'accès au site (mot de passe) — optionnel mais recommandé
+Pour que le site ne s'ouvre qu'aux personnes autorisées (en plus du chiffrement du
+contenu), protège-le avec **Cloudflare Access** (gratuit). Guide pas-à-pas :
+voir **`ACCESS.md`**.
+
 ## 4) Partager — privé, à elle seule
 1. Ouvrez le site → **Partager à deux**.
 2. Choisissez une **phrase secrète** (4 mots, p. ex. « castor bleu lodge sept »).
