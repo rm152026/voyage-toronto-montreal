@@ -1,0 +1,9 @@
+.claude/
+.DS_Store
+graphify-out/
+
+# Sources EN CLAIR du carnet — NE JAMAIS publier (dépôt public).
+# Le contenu réel est chiffré dans content.enc (voir build.mjs / SETUP.md).
+app.js
+app-body.html
+_migrate.mjs
